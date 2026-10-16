@@ -1,0 +1,111 @@
+/* ডিফল্ট ফাঁকা জায়গা দূর করার গ্লোবাল রিসেট */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.font_rale {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* ব্যাকগ্রাউন্ড সঠিকভাবে পুরো স্ক্রিন জুড়ে বসানো */
+header {
+  background-image: url('/Assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 698px;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 150px; /* মার্জিনের বদলে ন্যাভের ভেতরে প্যাডিং */
+}
+
+.left {
+  font-size: 34px;
+  font-weight: 800; /* ১২০০ নয়, সর্বোচ্চ ৯০০ */
+  color: #4E47FF;
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.btn {
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 12px 36px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Banner Section */
+.banner {
+  text-align: center;
+  
+}
+
+.title {
+  font-size: 65px;
+  font-weight: 700;
+
+ padding-top:309px;
+ padding-left: 267px;
+ padding-right: 267px;
+  line-height: 1.2;
+}
+.newbtn{
+    margin-top:37px;
+    margin-bottom: 152px;
+}
+
+/*main*/
+main{
+
+    max-width: 1140px;
+    margin:0 auto;
+}
+.first{
+    display:flex;
+    margin-top:116px;
+    align-items:center;
+    justify-content:space-between ;
+    
+
+}
+.first img{
+    width:403px;
+    border-radius: 48px;
+}
+    
+.titl{
+    font-size:42px;
+font-weight: 700;
+}
+.description{
+    font-size:24px;
+    color:#252432, 0.5;
+    
+}
+.btn ,.new{
+    margin-top:32px;
+}
