@@ -109,3 +109,24 @@ font-weight: 700;
 .btn ,.new{
     margin-top:32px;
 }
+.heading{
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-around;
+}
+.active-user{
+  color:#4E47FF;
+  font-weight: 700;
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.user-items{
+  color:#252432;
+  font-size: 38px;
+  text-align: center;
+}
+.secoond{
+  text-align: center;
+}
+
