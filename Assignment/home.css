@@ -141,6 +141,13 @@ font-weight: 700;
   text-align: center;
   
 }
+.user-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px; /* কার্ডগুলোর মাঝের ফাঁকা জায়গা */
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 .user{
 
@@ -151,7 +158,9 @@ font-weight: 700;
 .review{
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top:24px;
+  text-align: center;
 }
 .love{
   margin-top:24px;
@@ -163,21 +172,88 @@ font-weight: 700;
 .name{
   color:#757575;
   
+  
 }
 .story{
-  display: flex;
-  align-items: center;
-  justify-content:space-around;
+
+
+text-align: center;
+border:1px solid saddlebrown;
+width: 366px;
+height: 243px;
+
+  
 
 
 
 
 }
+.user-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px; /* Card gulor majher faka jayga */
+  margin-top: 40px;
+}
+
 .main-user{
 align-items: center;
-  background-color: antiquewhite;
+
+
 }
 
 
+/**conf 2022**/
+.conf{
+  font-size: 50px;
+}
+
+.conf-sub{
+  color:#00000080;
+}
+
+.conf-2022{
+  text-align: center;
+  margin-top:137px;
+  width: 1140;
+  height: 696px;
+  background-color: #f9f7f7;
+}
+.conf-main{
+  padding:71px;
+}
+.big-wc{
+  border-radius: 48px;
+}
+
+.formnew label,
+.formnew input,
+.formnew textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+.from-title{
+  font-size: 97px;
+}
+
+.from{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input,textarea
+{
+  width:497px;
+  height: 70px;
+  padding:20px 272px 20px 12px;
+}
+input:hover{
+  color: rgb(23, 181, 86);
+}
+
+.newlst{
+  width: 497px;
+  height: 62px;
+  border-radius: 10px;
+}
 
 
